@@ -1,221 +1,67 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Gaming Electronics Hub</title>
+    <title>Electronic Gaming Hub</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Reviews</a></li>
-        </ul>
+    <nav class="navbar">
+        <h2 class="logo">EGH</h2>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Games</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+        </div>
     </nav>
 
-    <!-- Search Box -->
-    <div class="search">
-        <input type="text" placeholder="Search gaming electronics...">
-    </div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Electronic Gaming Hub</h1>
+        <p>Your Ultimate Destination for Immersive Digital Play</p>
 
-    <!-- Heading -->
-    <header>
-        <h1>Gaming Electronics Hub</h1>
-        <p class="sub">Top Gaming Devices of 2026</p>
-    </header>
-
-    <!-- Description -->
-    <section class="paragraph">
-        <p>
-            Explore the latest gaming consoles, powerful gaming laptops,
-            accessories, and next-gen devices designed for ultimate performance.
-        </p>
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <input type="text" placeholder="Search games...">
+            <button>Search</button>
+        </div>
     </section>
 
-    <!-- Gaming Products (Images Section) -->
-    <section class="images">
-        <div>🎮 PlayStation 5</div>
-        <div>🕹 Xbox Series X</div>
-        <div>💻 Gaming Laptop</div>
-        <div>⌨ RGB Keyboard</div>
-        <div>🖱 Gaming Mouse</div>
-        <div>🖥 Gaming Monitor</div>
+    <!-- Featured Games Section -->
+    <section class="container">
+        <h2>Featured Games</h2>
+
+        <div class="card-container">
+
+            <div class="card">
+                <img src="reanima1.jpg" alt="Reanimal">
+                <h3>Reanimal</h3>
+                <p>Dark adventure with immersive storytelling and survival elements.</p>
+            </div>
+
+            <div class="card">
+                <img src="reanima2.jpg" alt="GTA 5">
+                <h3>GTA 5</h3>
+                <p>Open-world action classic with endless exploration possibilities.</p>
+            </div>
+
+            <div class="card">
+                <img src="reanima3.jpg" alt="Call of Duty">
+                <h3>Call of Duty</h3>
+                <p>Fast-paced competitive shooter with global esports presence.</p>
+            </div>
+
+        </div>
     </section>
 
-    <!-- Videos Section -->
-    <section class="videos">
-        <div>Gameplay Video 1</div>
-        <div>Product Review 2</div>
-        <div>Unboxing 3</div>
-        <div>Setup Tour 4</div>
-    </section>
-
-    <!-- Tables Section -->
-    <section class="tables">
-        <table>
-            <tr>
-                <th>Device</th>
-                <th>Price</th>
-            </tr>
-            <tr>
-                <td>PlayStation 5</td>
-                <td>$499</td>
-            </tr>
-            <tr>
-                <td>Gaming Laptop</td>
-                <td>$1200</td>
-            </tr>
-        </table>
-
-        <table>
-            <tr>
-                <th>Year</th>
-                <th>Status</th>
-            </tr>
-            <tr>
-                <td>2026</td>
-                <td>Trending</td>
-            </tr>
-        </table>
-    </section>
+    <!-- Footer -->
+    <footer>
+        © 2026 Electronic Gaming Hub | All Rights Reserved
+    </footer>
 
 </body>
-</html>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #0f0f1a;
-    color: white;
-}
-
-/* Navigation */
-nav {
-    background: #1a1a2e;
-    padding: 15px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-}
-
-nav ul li a {
-    color: #00f7ff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    color: #ff00c8;
-}
-
-/* Search */
-.search {
-    text-align: center;
-    margin: 20px;
-}
-
-.search input {
-    width: 60%;
-    padding: 10px;
-    border-radius: 20px;
-    border: none;
-}
-
-/* Header */
-header {
-    text-align: center;
-}
-
-.sub {
-    color: #00f7ff;
-}
-
-/* Paragraph */
-.paragraph {
-    padding: 20px;
-    text-align: center;
-}
-
-/* Images & Videos */
-.images, .videos {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
-    flex-wrap: wrap;
-}
-
-.images div, .videos div {
-    background: #1f1f3a;
-    border: 1px solid #00f7ff;
-    padding: 30px;
-    width: 150px;
-    text-align: center;
-    margin: 10px;
-    border-radius: 10px;
-    transition: 0.3s;
-}
-
-.images div:hover, .videos div:hover {
-    background: #ff00c8;
-    cursor: pointer;
-}
-
-/* Tables */
-.tables {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
-    flex-wrap: wrap;
-}
-
-table {
-    border-collapse: collapse;
-    margin: 10px;
-}
-
-table, th, td {
-    border: 1px solid #00f7ff;
-    padding: 10px;
-}
-
-th {
-    background-color: #1a1a2e;
-}
- "images/ps5.jpg
-gaming-electronics/
-│── index.html
-│── style.css
-│── images/
-      ps5.jpg
-      xbox.jpg
-      laptop.jpg
- <div class="product">
-    <img src="images/xbox.jpg" alt="Xbox Series X">
-    <p>Xbox Series X</p>
-</div>
- .product {
-    background: #1f1f3a;
-    border: 1px solid #00f7ff;
-    padding: 15px;
-    width: 180px;
-    text-align: center;
-    margin: 10px;
-    border-radius: 10px;
-}
-
-.product img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 8px;
-}
- <div class="product">
-    <img src="images/ps5.jpg" alt="PlayStation 5">
-    <p>PlayStation 5</p>
-</div>
+</html> 
