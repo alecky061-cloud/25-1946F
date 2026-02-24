@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Electronic Gaming Hub</title>
@@ -11,7 +11,7 @@
         body {
             background-color: black;
             color: white;
-            font-family: Arial;
+            font-family: Arial, sans-serif;
             text-align: center;
         }
 
@@ -19,6 +19,16 @@
             width: 80%;
             margin: auto;
             padding: 20px;
+        }
+
+        img {
+            width: 250px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        iframe {
+            margin-top: 20px;
         }
 
         table {
@@ -40,74 +50,90 @@
 
 <body>
 
-    <div class="container">
+<div class="container">
 
-        <!-- Inline CSS Example -->
-        <h1 style="color: orange;">Electronic Gaming Hub</h1>
+    <!-- Inline CSS Example -->
+    <h1 style="color: orange;">Electronic Gaming Hub</h1>
 
-        <p>Welcome to a simple gaming website project.</p>
+    <p>Explore gameplay, images, and environmental gaming design.</p>
 
-        <!-- Search Bar -->
-        <input type="text" placeholder="Search game...">
-        <button>Search</button>
+    <!-- Search Bar -->
+    <input type="text" placeholder="Search game...">
+    <button>Search</button>
 
-        <h2>Game Comparison</h2>
+    <h2>Game Images</h2>
 
-        <table>
-            <tr>
-                <th>Game</th>
-                <th>Genre</th>
-                <th>Mode</th>
-            </tr>
+    <img src="reanima1.jpg" alt="Reanimal scene">
+    <img src="reanima2.jpg" alt="Reanimal monster">
+    <img src="reanima3.jpg" alt="Reanimal environment">
 
-            <tr>
-                <td>Reanimal</td>
-                <td>Adventure / Horror</td>
-                <td>Single Player</td>
-            </tr>
+    <h2>Gameplay Video</h2>
 
-            <tr>
-                <td>GTA 5</td>
-                <td>Open World</td>
-                <td>Single / Multiplayer</td>
-            </tr>
+    <!-- Your YouTube Video -->
+    <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/arEdruKxrQ8?si=6dzD-I4iZ0v7tvSS" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+    </iframe>
 
-            <tr>
-                <td>Call of Duty</td>
-                <td>FPS Shooter</td>
-                <td>Multiplayer</td>
-            </tr>
-        </table>
+    <h2>Game Comparison</h2>
 
-        <h2>Environmental Gaming</h2>
+    <table>
+        <tr>
+            <th>Game</th>
+            <th>Genre</th>
+            <th>Mode</th>
+        </tr>
 
-        <p>
-            Environmental gaming focuses on how the game world influences player
-            experience. The design of landscapes, buildings, and lighting creates
-            immersion and emotional connection.
-        </p>
+        <tr>
+            <td>Reanimal</td>
+            <td>Adventure / Horror</td>
+            <td>Single Player</td>
+        </tr>
 
-        <p>
-            In horror games like Reanimal, dark environments build tension and
-            suspense. The setting becomes part of the storytelling.
-        </p>
+        <tr>
+            <td>GTA 5</td>
+            <td>Open World</td>
+            <td>Single / Multiplayer</td>
+        </tr>
 
-        <p>
-            Open-world games such as GTA 5 use realistic cities and interactive
-            spaces to make players feel part of a living world.
-        </p>
+        <tr>
+            <td>Call of Duty</td>
+            <td>FPS Shooter</td>
+            <td>Multiplayer</td>
+        </tr>
+    </table>
 
-        <p>
-            Competitive games like Call of Duty use map design to influence
-            strategy and movement during gameplay.
-        </p>
+    <h2>Environmental Gaming</h2>
 
-        <p>
-            Overall, environmental design plays a major role in modern gaming
-            because it shapes emotion, realism, and engagement.
-        </p>
+    <p>
+        Environmental gaming focuses on how the game world influences player
+        experience. The design of landscapes, lighting, and structures creates
+        immersion.
+    </p>
 
-    </div>
+    <p>
+        Horror games use dark environments to build tension and emotional impact.
+    </p>
+
+    <p>
+        Open-world games use realistic cities and dynamic weather systems to
+        create believable worlds.
+    </p>
+
+    <p>
+        Competitive games design maps carefully to support strategy and teamwork.
+    </p>
+
+    <p>
+        Overall, environmental design enhances realism, emotion, and player
+        engagement.
+    </p>
+
+</div>
 
 </body>
 </html>
