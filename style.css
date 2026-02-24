@@ -109,3 +109,25 @@ footer {
     text-align: center;
     padding: 20px;
 }
+/* Game Table */
+.game-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.game-table th {
+    background-color: #ff9800;
+    color: black;
+    padding: 12px;
+}
+
+.game-table td {
+    padding: 12px;
+    border: 1px solid #333;
+    background-color: #111;
+}
+
+.game-table tr:hover {
+    background-color: #222;
+}
